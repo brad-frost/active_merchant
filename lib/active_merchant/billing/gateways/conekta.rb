@@ -12,7 +12,7 @@ module ActiveMerchant #:nodoc:
 
       def initialize(options = {})
         requires!(options, :key)
-        options[:version] ||= '0.2.0'
+        options[:version] ||= '0.3.0'
         super
       end
 
